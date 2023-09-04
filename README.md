@@ -1,6 +1,6 @@
 ## About the project
 
-this project was created in the front-end course at Origamid. In this project, I put into practice what I learned during the course, such as adding and removing classes, loops in array objects, scope of functions and events.
+This project was created in the front-end course at Origamid. In this project, I put into practice what I learned during the course, such as adding and removing classes, loops in array objects, scope of functions and events using JavaScript.
 
 ## How to see the project
 
