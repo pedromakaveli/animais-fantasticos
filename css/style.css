@@ -206,3 +206,7 @@ body {
     margin-bottom: 0px;
   }
 }
+
+.js-tab-content {
+  display: none;
+}
