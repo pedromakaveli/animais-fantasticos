@@ -231,3 +231,32 @@ body {
     transform: translate(0, 0, 0);
   }
 }
+
+.js-accordion dt::after {
+  content: '⮧';
+  margin-left: 10px;
+}
+
+.js-accordion dt.active::after {
+  content: '⮥';
+  margin-left: 10px;
+}
+
+.js-accordion dd{
+  display: none;
+}
+
+.js-accordion dd.active {
+  display: block;
+  animation: slideDown .5s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
