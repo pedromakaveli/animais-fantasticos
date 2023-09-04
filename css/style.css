@@ -207,6 +207,6 @@ body {
   }
 }
 
-.js-tab-content {
+.js-tab-content section{
   display: none;
 }
