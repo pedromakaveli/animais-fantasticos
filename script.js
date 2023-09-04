@@ -2,7 +2,7 @@ const tabMenu = document.querySelectorAll('.js-tab-menu li');
 const tabContent = document.querySelectorAll('.js-tab-content section');
 
 function activeTab (index) {
-    // Remove all class like "ativo"
+    // Remove all class like "active"
     tabContent.forEach((section) => {
         section.classList.remove('active');
     })
