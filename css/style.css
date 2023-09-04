@@ -210,3 +210,7 @@ body {
 .js-tab-content section{
   display: none;
 }
+
+.js-tab-content section.active {
+  display: block !important;
+}
